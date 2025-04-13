@@ -1,0 +1,7 @@
+<resources>
+    <color name="factory_primary">#1565C0</color> <!-- насыщенный синий -->
+    <color name="factory_secondary">#90CAF9</color> <!-- светло-голубой -->
+    <color name="factory_background">#FAFAFA</color>
+    <color name="factory_text_dark">#212121</color>
+    <color name="factory_text_light">#FFFFFF</color>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Работники фабрики</string>
+    <string name="employee_photo">Фото сотрудника</string>
+    <string name="employee_name">Имя</string>
+    <string name="employee_position">Должность</string>
+    <string name="title_activity_navigation">Navigation Activity</string>
+    <string name="title_activity_statistics">Statistics Activity</string>
+    <string name="next">Next</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="previous">Previous</string>
+
+    <string name="nav_header_desc">This is a navigation header description</string>
+    <string name="nav_header_title">Navigation Header Title</string>
+    <string name="nav_header_subtitle">Subtitle for the navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+</resources>

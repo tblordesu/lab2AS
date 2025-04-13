@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Базовая тема приложения с Material3 и без ActionBar -->
+    <style name="Base.Theme.Lab2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основные цвета приложения -->
+        <item name="colorPrimary">@color/factory_primary</item>
+        <item name="colorPrimaryContainer">@color/factory_secondary</item>
+        <item name="colorOnPrimary">@color/factory_text_light</item>
+
+        <item name="colorSecondary">@color/factory_secondary</item>
+        <item name="colorOnSecondary">@color/factory_text_dark</item>
+
+        <!-- Фон активити -->
+        <item name="android:windowBackground">@color/factory_secondary</item>
+
+        <!-- Настройка системных элементов -->
+        <item name="android:statusBarColor">@color/factory_primary</item>
+        <item name="android:navigationBarColor">@color/factory_primary</item>
+
+        <!-- Шрифт по умолчанию -->
+        <item name="android:textColorPrimary">@color/factory_text_dark</item>
+
+        <!-- forceDarkAllowed требует API 29+ -->
+        <!-- <item name="android:forceDarkAllowed">true</item> -->
+    </style>
+
+    <!-- Основная тема -->
+    <style name="Theme.Lab2" parent="Base.Theme.Lab2" />
+
+    <!-- Без ActionBar -->
+    <style name="Theme.Lab2.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Наложения -->
+    <style name="Theme.Lab2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Lab2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+</resources>
