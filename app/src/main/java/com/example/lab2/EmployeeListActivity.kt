@@ -21,9 +21,9 @@ class EmployeeListActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         val employees = listOf(
-            Employee("Иванов Иван", "Слесарь", R.drawable.ivanov),
-            Employee("Петров Петр", "Токарь", R.drawable.petrov),
-            Employee("Сидоров Алексей", "Электрик", R.drawable.sidorov)
+            Employee("Иванов Иван", "Слесарь", R.drawable.ivanov, "Мужской", 35, 10),
+            Employee("Петров Петр", "Токарь", R.drawable.petrov, "Мужской", 42, 15),
+            Employee("Сидоров Алексей", "Электрик", R.drawable.sidorov, "Мужской", 28, 5)
         )
 
         adapter = EmployeeAdapter(employees) { employee: Employee ->
@@ -31,6 +31,9 @@ class EmployeeListActivity : AppCompatActivity() {
                 putExtra("name", employee.name)
                 putExtra("position", employee.position)
                 putExtra("imageResId", employee.imageResId)
+                putExtra("gender", employee.gender)
+                putExtra("age", employee.age)
+                putExtra("experience", employee.experience)
             }
             startActivity(intent)
         }
